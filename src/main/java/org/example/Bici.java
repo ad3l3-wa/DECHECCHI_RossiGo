@@ -12,7 +12,6 @@ public class Bici extends Veicolo{
     public int getNumeroMarce(){
         return marce;
     }
-
     @Override
     public double calcolaCosto(int minuti){
         tariffa = 0.15*minuti;
